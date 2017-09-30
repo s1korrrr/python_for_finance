@@ -1,0 +1,11 @@
+USEFULL LINKS!
+
+http://www.nasdaq.com/symbol/tsla   -   this is the data i'm collecting my figures from.
+
+
+https://pythonprogramming.net/data-analysis-python-pandas-tutorial-introduction/
+https://pythonprogramming.net/matplotlib-intro-tutorial/
+https://pythonprogramming.net/data-analysis-python-pandas-tutorial-introduction/
+
+
+https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html

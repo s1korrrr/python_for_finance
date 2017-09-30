@@ -1,0 +1,7 @@
+Numpy
+Matplotlib
+Pandas
+Pandas-datareader
+BeautifulSoup4
+scikit-learn / sklearn
+lxml
