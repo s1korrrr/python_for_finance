@@ -12,6 +12,7 @@ import requests
 from sklearn import svm, model_selection, neighbors
 from sklearn.ensemble import VotingClassifier, RandomForestClassifier
 from time import sleep
+from statistics import mean
 
 style.use('ggplot')
 
@@ -208,6 +209,21 @@ def do_ml(ticker):
     print()
     print()
     return confidence
+
+# Printing accuracy against all tickers
+# with open("sp500tickers.pickle", "rb") as f:
+#     tickers = pickle.load(f)
+#
+# accuracies = []
+# for count, ticker in enumerate(tickers):
+#
+#     if count % 10 == 0:
+#         print(count)
+#
+#     accuracy = do_ml(ticker)
+#     accuracies.append(accuracy)
+#     print("{} accuracy: {}. Average accuracy:{}".format(ticker, accuracy, mean(accuracies)))
+
 
 extract_featuresets('AEP')
 # # examples of running:
